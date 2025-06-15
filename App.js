@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const Heading = document.getElementById("root");
 //React
 
@@ -5,8 +8,8 @@ const h1 = React.createElement(
   "div",
   { id: "main" },
   React.createElement("div", {}, [
-    React.createElement("h1", {}, "Hello World from React"),
-    React.createElement("p", {}, "Hello World from React inner"),
+    React.createElement("h1", { key: "heading" }, "Hello World from React"),
+    React.createElement("p", { key: "para" }, "Hello World from aprose inner"),
   ])
 );
 const root = ReactDOM.createRoot(Heading);
