@@ -43,7 +43,7 @@
 64D:\REACT-RIYAS\node_modules\@parcel\package-manager\src\index.js133944002968633940 0
 32D:\REACT-RIYAS\package-lock.json133944002981310296 0
 60D:\REACT-RIYAS\node_modules\lmdb\dependencies\lmdb\libraries133944002968146163 1
-27D:\REACT-RIYAS\package.json133944007012827348 0
+27D:\REACT-RIYAS\package.json133944013031625818 0
 55D:\REACT-RIYAS\node_modules\@parcel\events\src\types.js133944002969106955 0
 45D:\REACT-RIYAS\node_modules\has-flag\index.js133944002967806070 0
 51D:\REACT-RIYAS\node_modules\semver\functions\inc.js133944002969574614 0
