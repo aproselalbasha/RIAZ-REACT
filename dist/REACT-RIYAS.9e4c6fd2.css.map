@@ -1,1 +1,1 @@
-{"mappings":"AAAA","sources":["index.css"],"sourcesContent":["#main{\r\ncolor:red\r\n}"],"names":[],"version":3,"file":"REACT-RIYAS.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAAA;;;;AAGA","sources":["index.css"],"sourcesContent":["#main{\r\ncolor:red\r\n}\r\n.jsx{\r\n   color: blue; \r\n   display: inline;\r\n}\r\n.main{\r\n  \r\n}"],"names":[],"version":3,"file":"REACT-RIYAS.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,15 +1,15 @@
-3603
+3599
 100D:\REACT-RIYAS\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\process.js133944002968166172 0
 70D:\REACT-RIYAS\node_modules\@swc\helpers\_\_apply_decorated_descriptor133944002972917381 1
 72D:\REACT-RIYAS\node_modules\@swc\helpers\_\_async_generator\package.json133944002973007223 0
-23D:\REACT-RIYAS\notes.md133943924409293080 0
+23D:\REACT-RIYAS\notes.md133944837582279636 0
 65D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\wasm-gc.js133944002976759066 0
-19D:\REACT-RIYAS\dist133944008309802126 1
+19D:\REACT-RIYAS\dist133945666495676395 1
 74D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\css-color-adjust.js133944002972020990 0
 54D:\REACT-RIYAS\node_modules\utility-types\package.json133944002968633940 0
 45D:\REACT-RIYAS\node_modules\@msgpackr-extract133944002980869553 1
 62D:\REACT-RIYAS\node_modules\@parcel\core\lib\CommittedAsset.js133944002970844688 0
-25D:\REACT-RIYAS\.gitignore133944001515841087 0
+25D:\REACT-RIYAS\.gitignore133944244479697225 0
 78D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\input-file-directory.js133944002974683314 0
 47D:\REACT-RIYAS\node_modules\tslib\tslib.es6.mjs133944002969106955 0
 68D:\REACT-RIYAS\node_modules\@parcel\reporter-cli\src\bundleReport.js133944002967671708 0
@@ -17,7 +17,7 @@
 74D:\REACT-RIYAS\node_modules\@swc\helpers\src\_class_private_method_set.mjs133944002974330122 0
 67D:\REACT-RIYAS\node_modules\electron-to-chromium\full-versions.json133944002969149986 0
 36D:\REACT-RIYAS\node_modules\escalade133944002969045364 1
-21D:\REACT-RIYAS\App.js133943999981542292 0
+21D:\REACT-RIYAS\App.js133945668515401342 0
 41D:\REACT-RIYAS\node_modules\color-convert133944002968616942 1
 45D:\REACT-RIYAS\node_modules\react-dom\LICENSE133944002967401295 0
 79D:\REACT-RIYAS\node_modules\@parcel\source-map\parcel_sourcemap_node\src\lib.rs133944002971512291 0
@@ -28,7 +28,7 @@
 25D:\REACT-RIYAS\index.html133944000025431837 0
 99D:\REACT-RIYAS\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js133944002970333048 0
 64D:\REACT-RIYAS\node_modules\@swc\helpers\esm\_async_generator.js133944002971600849 0
-24D:\REACT-RIYAS\index.css133944000040449708 0
+24D:\REACT-RIYAS\index.css133944836835725327 0
 46D:\REACT-RIYAS\node_modules\commander\index.js133944002968748010 0
 59D:\REACT-RIYAS\node_modules\caniuse-lite\data\regions\GU.js133944002974350185 0
 52D:\REACT-RIYAS\node_modules\semver\internal\debug.js133944002969170099 0
@@ -1325,7 +1325,6 @@
 40D:\REACT-RIYAS\node_modules\lmdb\keys.js133944002971966469 0
 48D:\REACT-RIYAS\node_modules\@swc\helpers\scripts133944002972912297 1
 40D:\REACT-RIYAS\node_modules\lmdb\LICENSE133944002969477816 0
-43D:\REACT-RIYAS\dist\REACT-RIYAS.a355ef7d.js133944008309690297 0
 60D:\REACT-RIYAS\node_modules\@parcel\transformer-html\LICENSE133944002967413899 0
 46D:\REACT-RIYAS\node_modules\lmdb\node-index.js133944002971993238 0
 71D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\text-overflow.js133944002976424122 0
@@ -1336,7 +1335,6 @@
 73D:\REACT-RIYAS\node_modules\@parcel\reporter-dev-server\src\types.js.flow133944002967681698 0
 70D:\REACT-RIYAS\node_modules\lmdb\node_modules\node-addon-api\README.md133944002969809124 0
 40D:\REACT-RIYAS\node_modules\lmdb\open.js133944002972008386 0
-48D:\REACT-RIYAS\dist\REACT-RIYAS.6ca5bb2d.css.map133944008309796774 0
 79D:\REACT-RIYAS\node_modules\@parcel\runtime-js\src\helpers\browser\js-loader.js133944002969893869 0
 103D:\REACT-RIYAS\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-gnu.node133944002971191080 0
 40D:\REACT-RIYAS\node_modules\lmdb\read.js133944002972049215 0
@@ -1392,7 +1390,6 @@
 70D:\REACT-RIYAS\node_modules\lmdb\node_modules\node-addon-api\nothing.c133944002967341467 0
 72D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\iframe-sandbox.js133944002974523756 0
 46D:\REACT-RIYAS\node_modules\lmdb\dict\dict.txt133944002972526322 0
-47D:\REACT-RIYAS\dist\REACT-RIYAS.a355ef7d.js.map133944008309802126 0
 58D:\REACT-RIYAS\node_modules\@parcel\watcher\src\Watcher.hh133944002970447348 0
 79D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\css-container-queries.js133944002972060098 0
 77D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\http-live-streaming.js133944002974469718 0
@@ -1729,7 +1726,7 @@
 66D:\REACT-RIYAS\node_modules\chrome-trace-event\dist\trace-event.js133944002967453092 0
 81D:\REACT-RIYAS\node_modules\@parcel\core\test\fixtures\config-malformed\.parcelrc133944002968044592 0
 43D:\REACT-RIYAS\node_modules\clone\README.md133944002967816050 0
-43D:\REACT-RIYAS\dist\REACT-RIYAS.cb65f72e.js133944003086689024 0
+43D:\REACT-RIYAS\dist\REACT-RIYAS.cb65f72e.js133945666495602773 0
 47D:\REACT-RIYAS\node_modules\@parcel\logger\test133944002968156169 1
 57D:\REACT-RIYAS\node_modules\chrome-trace-event\CHANGES.md133944002967853492 0
 51D:\REACT-RIYAS\node_modules\chrome-trace-event\dist133944002968229681 1
@@ -1981,7 +1978,6 @@
 59D:\REACT-RIYAS\node_modules\caniuse-lite\data\regions\TW.js133944002976569967 0
 76D:\REACT-RIYAS\node_modules\caniuse-lite\data\features\font-unicode-range.js133944002974086371 0
 59D:\REACT-RIYAS\node_modules\caniuse-lite\data\regions\UZ.js133944002976658414 0
-44D:\REACT-RIYAS\dist\REACT-RIYAS.6ca5bb2d.css133944008309690297 0
 59D:\REACT-RIYAS\node_modules\caniuse-lite\data\regions\VA.js133944002976658414 0
 64D:\REACT-RIYAS\node_modules\@swc\helpers\src\_async_iterator.mjs133944002974151084 0
 54D:\REACT-RIYAS\node_modules\@parcel\compressor-raw\lib133944002967642564 1
@@ -3095,7 +3091,7 @@
 70D:\REACT-RIYAS\node_modules\@parcel\transformer-react-refresh-wrap\lib133944002968370017 1
 60D:\REACT-RIYAS\node_modules\@parcel\events\lib\Disposable.js133944002967681698 0
 74D:\REACT-RIYAS\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE133944002967413899 0
-30D:\REACT-RIYAS\dist\index.html133944008309690297 0
+30D:\REACT-RIYAS\dist\index.html133945663481328538 0
 79D:\REACT-RIYAS\node_modules\@parcel\transformer-react-refresh-wrap\package.json133944002968908099 0
 89D:\REACT-RIYAS\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\helpers.js133944002968084132 0
 54D:\REACT-RIYAS\node_modules\@parcel\graph\package.json133944002969930583 0
@@ -3390,7 +3386,7 @@
 51D:\REACT-RIYAS\node_modules\@parcel\fs\package.json133944002969393955 0
 42D:\REACT-RIYAS\node_modules\@parcel\fs\src133944002969200171 1
 43D:\REACT-RIYAS\node_modules\@parcel\fs\test133944002969288350 1
-48D:\REACT-RIYAS\dist\REACT-RIYAS.9e4c6fd2.css.map133944003086354236 0
+48D:\REACT-RIYAS\dist\REACT-RIYAS.9e4c6fd2.css.map133945663481431639 0
 61D:\REACT-RIYAS\node_modules\@parcel\fs\test\OverlayFS.test.js133944002969318443 0
 51D:\REACT-RIYAS\node_modules\@parcel\fs\src\index.js133944002968758004 0
 60D:\REACT-RIYAS\node_modules\@parcel\fs\src\NodeFS.browser.js133944002969040290 0
@@ -3600,5 +3596,5 @@
 39D:\REACT-RIYAS\node_modules\.bin\semver133944002977223795 0
 43D:\REACT-RIYAS\node_modules\.bin\semver.ps1133944002977223795 0
 55D:\REACT-RIYAS\node_modules\.bin\update-browserslist-db133944002977223795 0
-44D:\REACT-RIYAS\dist\REACT-RIYAS.9e4c6fd2.css133944003086334240 0
-47D:\REACT-RIYAS\dist\REACT-RIYAS.cb65f72e.js.map133944003086736301 0
+44D:\REACT-RIYAS\dist\REACT-RIYAS.9e4c6fd2.css133945663481359835 0
+47D:\REACT-RIYAS\dist\REACT-RIYAS.cb65f72e.js.map133945666495666422 0
