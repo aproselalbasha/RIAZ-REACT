@@ -1559,9 +1559,7 @@ const Appcomponent = ()=>{
         }, undefined);
     };
     const Rescard = (props)=>{
-        //object destructure
-        console.log(props.reslist.info);
-        const { name, cuisines, cloudinaryImageId, avgRatingString } = props.reslist.info;
+        const { name, cuisines, cloudinaryImageId, avgRatingString } = props.reslist.info; //object destructure
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "rescard",
             children: [
@@ -1572,12 +1570,12 @@ const Appcomponent = ()=>{
                         alt: "reslogo"
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 808,
+                        lineNumber: 806,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 807,
+                    lineNumber: 805,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -1587,14 +1585,14 @@ const Appcomponent = ()=>{
                             children: name
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 817,
+                            lineNumber: 815,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: cuisines.join(",")
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 818,
+                            lineNumber: 816,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -1604,19 +1602,19 @@ const Appcomponent = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "App.js",
-                            lineNumber: 819,
+                            lineNumber: 817,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 816,
+                    lineNumber: 814,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "App.js",
-            lineNumber: 806,
+            lineNumber: 804,
             columnNumber: 7
         }, undefined);
     };
@@ -1627,12 +1625,12 @@ const Appcomponent = ()=>{
                     reslist: res
                 }, index, false, {
                     fileName: "App.js",
-                    lineNumber: 828,
+                    lineNumber: 827,
                     columnNumber: 11
                 }, undefined))
         }, void 0, false, {
             fileName: "App.js",
-            lineNumber: 826,
+            lineNumber: 824,
             columnNumber: 7
         }, undefined);
     //<Rescard reslist={reslist[0]}>
@@ -1641,18 +1639,18 @@ const Appcomponent = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 836,
+                lineNumber: 835,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 837,
+                lineNumber: 836,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 835,
+        lineNumber: 834,
         columnNumber: 5
     }, undefined);
 };
@@ -1660,7 +1658,7 @@ _c = Appcomponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Appcomponent, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 843,
+    lineNumber: 842,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -19381,3 +19379,4 @@ function $da9882e673ac146b$var$ErrorOverlay() {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["icAAj","blcJa"], "blcJa", "parcelRequire5a42", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=REACT-RIYAS.cb65f72e.js.map
+        

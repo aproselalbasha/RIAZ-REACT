@@ -798,10 +798,8 @@ const Appcomponent = () => {
     );
   };
   const Rescard = (props) => {
-    //object destructure
-    console.log(props.reslist.info);
     const { name, cuisines, cloudinaryImageId, avgRatingString } =
-      props.reslist.info;
+      props.reslist.info; //object destructure
     return (
       <div className="rescard">
         <div className="rescard-logo">
@@ -824,6 +822,7 @@ const Appcomponent = () => {
   const Body = () => {
     return (
       <div className="body">
+        {/* map concept */}
         {reslist.map((res, index) => (
           <Rescard key={index} reslist={res} />
         ))}

@@ -24,3 +24,6 @@ React.createElement("p", { key: "para" }, "Hello World from aprose inner"),
 
 component
 1.functional
+
+//1.object and array destructure
+2.map filter reduce
