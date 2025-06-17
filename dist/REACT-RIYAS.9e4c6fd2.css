@@ -39,4 +39,23 @@
 .list-header li:hover {
   background-color: #7fffd4;
 }
+
+.rescard {
+  text-align: center;
+  background-color: #a9a9a9;
+  width: 300px;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.rescard-logo > img {
+  width: 100%;
+  height: 200px;
+}
+
+.body {
+  flex-wrap: wrap;
+  display: flex;
+}
 /*# sourceMappingURL=REACT-RIYAS.9e4c6fd2.css.map */
