@@ -1,10 +1,38 @@
-#main{
-color:red
-}
-.jsx{
-   color: blue; 
-   display: inline;
-}
-.main{
+.header{
+   
+   height: 150px;
+   background-color:darkgray;
+   display: flex;
+border: 2px solid black;
   
+}
+.logo >img{
+   width:140px
+}
+.search-bar{
+margin: 65px 100px
+
+}
+.search-bar > input{
+width: 600px;
+height: 30px;
+}
+.search-bar > button{
+   height: 35px;
+   margin-left: 10px;
+   background-color: blanchedalmond;
+   border: none;
+}
+.list-header{
+   display: flex;
+   
+}
+.list-header li{
+ margin-right: 66px;
+ margin-top: 9%;
+ font-size:larger;
+ list-style-type: none;
+}
+.list-header li:hover{
+   background-color: aquamarine;
 }

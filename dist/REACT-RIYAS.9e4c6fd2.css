@@ -1,9 +1,42 @@
-#main {
-  color: red;
+.header {
+  background-color: #a9a9a9;
+  border: 2px solid #000;
+  height: 150px;
+  display: flex;
 }
 
-.jsx {
-  color: #00f;
-  display: inline;
+.logo > img {
+  width: 140px;
+}
+
+.search-bar {
+  margin: 65px 100px;
+}
+
+.search-bar > input {
+  width: 600px;
+  height: 30px;
+}
+
+.search-bar > button {
+  background-color: #ffebcd;
+  border: none;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.list-header {
+  display: flex;
+}
+
+.list-header li {
+  margin-top: 9%;
+  margin-right: 66px;
+  font-size: larger;
+  list-style-type: none;
+}
+
+.list-header li:hover {
+  background-color: #7fffd4;
 }
 /*# sourceMappingURL=REACT-RIYAS.9e4c6fd2.css.map */

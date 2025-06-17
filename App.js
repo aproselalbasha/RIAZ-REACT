@@ -1,26 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-const num = 1000;
-//functional component
-const Component = () => {
+const Header = () => {
   return (
-    <div>
-      <h1>i am from functional component</h1>
+    <div className="header">
+      <div className="logo">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtgWF-FaRWm6DbABSc1fAxOzex9URQzHFQg&s"
+          alt="LOGO"
+        />
+      </div>
+      <div className="search-bar">
+        <input type="text" />
+        <button>SEARCH</button>
+      </div>
+      <div className="header-menu">
+        <ul className="list-header">
+          <li>HOME</li>
+          <li>ABOUT US</li>
+          <li>CONTACT</li>
+          <li>CART</li>
+        </ul>
+      </div>
     </div>
   );
 };
-//react element
-const h2 = (
-  <div className="main">
-    <h2 className="jsx">i am from jsx</h2>
-
-    <h3 className="jsx">{num}</h3>
-    {Component()}
-    <Component />
-    <Component></Component>
-  </div>
-);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(h2);
+root.render(<Header />);
