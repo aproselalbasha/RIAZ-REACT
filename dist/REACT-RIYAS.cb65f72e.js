@@ -19379,4 +19379,3 @@ function $da9882e673ac146b$var$ErrorOverlay() {
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["icAAj","blcJa"], "blcJa", "parcelRequire5a42", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=REACT-RIYAS.cb65f72e.js.map
-        
