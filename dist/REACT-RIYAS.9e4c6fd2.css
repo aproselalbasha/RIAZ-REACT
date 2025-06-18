@@ -45,7 +45,7 @@
   background-color: #a9a9a9;
   width: 300px;
   height: 400px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 25px;
 }
 
@@ -57,5 +57,11 @@
 .body {
   flex-wrap: wrap;
   display: flex;
+}
+
+.top_restro {
+  cursor: pointer;
+  height: 50px;
+  margin-top: 13px;
 }
 /*# sourceMappingURL=REACT-RIYAS.9e4c6fd2.css.map */

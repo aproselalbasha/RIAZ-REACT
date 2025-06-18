@@ -40,7 +40,7 @@ height: 30px;
    width: 300px;
    height: 400px;
      background-color:darkgray;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   margin-right: 25px;
 }
@@ -53,5 +53,11 @@ height: 200px;
 .body{
    display: flex;
    flex-wrap: wrap;
+  
+}
+.top_restro{
+  margin-top: 13px;
+   height: 50px;
+   cursor: pointer;
   
 }
