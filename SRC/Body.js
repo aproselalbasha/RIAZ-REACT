@@ -1,14 +1,28 @@
+import { useState } from "react";
 import reslist from "../util/mockdata";
 import Rescard from "./Rescard";
 const Body = () => {
+  const [mylist, setmylist] = useState(reslist);
+
   return (
     <div>
       <div>
-        <button className="top_restro">TOP RESTRO</button>
+        <button
+          onClick={() => {
+            const updatedlist = mylist.filter((fill) => {
+              return fill.info.avgRating > 4.5;
+            });
+            console.log(updatedlist);
+            setmylist(updatedlist);
+          }}
+          className="top_restro"
+        >
+          TOP RESTRO
+        </button>
       </div>
       <div className="body">
         {/* map concept */}
-        {reslist.map((res, index) => (
+        {mylist.map((res, index) => (
           <Rescard key={index} reslist={res} />
         ))}
       </div>

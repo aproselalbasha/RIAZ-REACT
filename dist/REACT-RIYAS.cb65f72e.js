@@ -18458,6 +18458,29 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search-bar",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text"
+                    }, void 0, false, {
+                        fileName: "SRC/Header.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        children: "SEARCH"
+                    }, void 0, false, {
+                        fileName: "SRC/Header.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "SRC/Header.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "header-menu",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                     className: "list-header",
@@ -18466,39 +18489,39 @@ const Header = ()=>{
                             children: "HOME"
                         }, void 0, false, {
                             fileName: "SRC/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "ABOUT US"
                         }, void 0, false, {
                             fileName: "SRC/Header.js",
-                            lineNumber: 13,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "CONTACT"
                         }, void 0, false, {
                             fileName: "SRC/Header.js",
-                            lineNumber: 14,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "CART"
                         }, void 0, false, {
                             fileName: "SRC/Header.js",
-                            lineNumber: 15,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "SRC/Header.js",
-                    lineNumber: 11,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "SRC/Header.js",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 7
             }, undefined)
         ]
@@ -18537,49 +18560,61 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
 var _mockdata = require("../util/mockdata");
 var _mockdataDefault = parcelHelpers.interopDefault(_mockdata);
 var _rescard = require("./Rescard");
 var _rescardDefault = parcelHelpers.interopDefault(_rescard);
+var _s = $RefreshSig$();
 const Body = ()=>{
+    _s();
+    const [mylist, setmylist] = (0, _react.useState)((0, _mockdataDefault.default));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: ()=>{
+                        const updatedlist = mylist.filter((fill)=>{
+                            return fill.info.avgRating > 4.5;
+                        });
+                        console.log(updatedlist);
+                        setmylist(updatedlist);
+                    },
                     className: "top_restro",
                     children: "TOP RESTRO"
                 }, void 0, false, {
                     fileName: "SRC/Body.js",
-                    lineNumber: 7,
+                    lineNumber: 10,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "SRC/Body.js",
-                lineNumber: 6,
+                lineNumber: 9,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "body",
-                children: (0, _mockdataDefault.default).map((res, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _rescardDefault.default), {
+                children: mylist.map((res, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _rescardDefault.default), {
                         reslist: res
                     }, index, false, {
                         fileName: "SRC/Body.js",
-                        lineNumber: 12,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "SRC/Body.js",
-                lineNumber: 9,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "SRC/Body.js",
-        lineNumber: 5,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 //<Rescard reslist={reslist[0]}>
 };
+_s(Body, "tFqbYLPhCvmUrkXJAR7V62GSWqc=");
 _c = Body;
 exports.default = Body;
 var _c;
@@ -18590,7 +18625,7 @@ $RefreshReg$(_c, "Body");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../util/mockdata":"eZRGz","./Rescard":"dmIZ2"}],"eZRGz":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../util/mockdata":"eZRGz","./Rescard":"dmIZ2","react":"jMk1U"}],"eZRGz":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const reslist = [

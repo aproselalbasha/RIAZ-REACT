@@ -6,7 +6,10 @@ const Header = () => {
       <div className="logo">
         <img src={HEAD_LOGO} alt="LOGO" />
       </div>
-
+      <div className="search-bar">
+        <input type="text" />
+        <button>SEARCH</button>
+      </div>
       <div className="header-menu">
         <ul className="list-header">
           <li>HOME</li>
