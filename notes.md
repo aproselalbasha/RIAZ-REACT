@@ -27,3 +27,7 @@ component
 
 //1.object and array destructure
 2.map filter reduce
+
+1.fetch concept
+2.promises
+3.destructure 4. run github code
