@@ -1,6 +1,7 @@
 .header {
   background-color: #a9a9a9;
   border: 2px solid #000;
+  justify-content: space-between;
   height: 150px;
   display: flex;
 }
@@ -10,7 +11,7 @@
 }
 
 .search-bar {
-  margin: 65px 100px;
+  margin: 20px 100px;
 }
 
 .search-bar > input {
@@ -36,10 +37,6 @@
   list-style-type: none;
 }
 
-.list-header li:hover {
-  background-color: #7fffd4;
-}
-
 .rescard {
   text-align: center;
   background-color: #a9a9a9;
@@ -63,5 +60,16 @@
   cursor: pointer;
   height: 50px;
   margin-top: 13px;
+}
+
+.body-top {
+  display: flex;
+}
+
+.login_btn {
+  width: 80px;
+  height: 50px;
+  position: relative;
+  bottom: 16px;
 }
 /*# sourceMappingURL=REACT-RIYAS.9e4c6fd2.css.map */

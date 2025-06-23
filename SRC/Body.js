@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import reslist from "../util/mockdata";
 import Rescard from "./Rescard";
 const Body = () => {
+  const [filterdata, setfilterdata] = useState("");
   const [mylist, setmylist] = useState([]);
+
   useEffect(() => {
     swiggyapi();
   }, []);
@@ -30,7 +32,7 @@ const Body = () => {
   }
   return (
     <div>
-      <div>
+      <div className="body-top">
         <button
           onClick={() => {
             const updatedlist = mylist.filter((fill) => {
@@ -43,6 +45,23 @@ const Body = () => {
         >
           TOP RESTRO
         </button>
+        <div className="search-bar">
+          <input
+            type="text"
+            value={filterdata}
+            onChange={(e) => setfilterdata(e.target.value)}
+          />
+          <button
+            onClick={() => {
+              const updatedlist = mylist.filter((e) =>
+                filterdata.includes(e.info.name)
+              );
+              setmylist(updatedlist);
+            }}
+          >
+            SEARCH
+          </button>
+        </div>
       </div>
       <div className="body">
         {/* map concept */}

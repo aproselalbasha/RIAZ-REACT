@@ -16129,8 +16129,13 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
 var _constant = require("../util/constant");
+var _s = $RefreshSig$();
 const Header = ()=>{
+    _s();
+    const [login_btn, setlogin_btn] = (0, _react.useState)("LOGIN");
+    console.log(" body rended");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header",
         children: [
@@ -16141,33 +16146,10 @@ const Header = ()=>{
                     alt: "LOGO"
                 }, void 0, false, {
                     fileName: "SRC/Header.js",
-                    lineNumber: 7,
+                    lineNumber: 10,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
-                fileName: "SRC/Header.js",
-                lineNumber: 6,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search-bar",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text"
-                    }, void 0, false, {
-                        fileName: "SRC/Header.js",
-                        lineNumber: 10,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        children: "SEARCH"
-                    }, void 0, false, {
-                        fileName: "SRC/Header.js",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
                 fileName: "SRC/Header.js",
                 lineNumber: 9,
                 columnNumber: 7
@@ -16204,6 +16186,23 @@ const Header = ()=>{
                             fileName: "SRC/Header.js",
                             lineNumber: 18,
                             columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "login_btn",
+                                onClick: ()=>{
+                                    login_btn == "LOGIN" ? setlogin_btn("LOGOUT") : setlogin_btn("LOGIN");
+                                },
+                                children: login_btn
+                            }, void 0, false, {
+                                fileName: "SRC/Header.js",
+                                lineNumber: 20,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "SRC/Header.js",
+                            lineNumber: 19,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
@@ -16219,10 +16218,11 @@ const Header = ()=>{
         ]
     }, void 0, true, {
         fileName: "SRC/Header.js",
-        lineNumber: 5,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
+_s(Header, "I3531rgd8oJlZIhpKNgaonzpS44=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -16233,7 +16233,7 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","../util/constant":"1fnun","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"1fnun":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","../util/constant":"1fnun","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U"}],"1fnun":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "HEAD_LOGO", ()=>HEAD_LOGO);
@@ -18568,6 +18568,7 @@ var _rescardDefault = parcelHelpers.interopDefault(_rescard);
 var _s = $RefreshSig$();
 const Body = ()=>{
     _s();
+    const [filterdata, setfilterdata] = (0, _react.useState)("");
     const [mylist, setmylist] = (0, _react.useState)([]);
     (0, _react.useEffect)(()=>{
         swiggyapi();
@@ -18586,35 +18587,67 @@ const Body = ()=>{
             alt: ""
         }, void 0, false, {
             fileName: "SRC/Body.js",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "SRC/Body.js",
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 7
     }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: ()=>{
-                        const updatedlist = mylist.filter((fill)=>{
-                            return fill.info.avgRating > 4.5;
-                        });
-                        console.log(updatedlist);
-                        setmylist(updatedlist);
-                    },
-                    className: "top_restro",
-                    children: "TOP RESTRO"
-                }, void 0, false, {
-                    fileName: "SRC/Body.js",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
+                className: "body-top",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>{
+                            const updatedlist = mylist.filter((fill)=>{
+                                return fill.info.avgRating > 4.5;
+                            });
+                            console.log(updatedlist);
+                            setmylist(updatedlist);
+                        },
+                        className: "top_restro",
+                        children: "TOP RESTRO"
+                    }, void 0, false, {
+                        fileName: "SRC/Body.js",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "search-bar",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                value: filterdata,
+                                onChange: (e)=>setfilterdata(e.target.value)
+                            }, void 0, false, {
+                                fileName: "SRC/Body.js",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: ()=>{
+                                    const updatedlist = mylist.filter((e)=>filterdata.includes(e.info.name));
+                                    setmylist(updatedlist);
+                                },
+                                children: "SEARCH"
+                            }, void 0, false, {
+                                fileName: "SRC/Body.js",
+                                lineNumber: 54,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "SRC/Body.js",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "SRC/Body.js",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18623,23 +18656,23 @@ const Body = ()=>{
                         reslist: res
                     }, index, false, {
                         fileName: "SRC/Body.js",
-                        lineNumber: 50,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "SRC/Body.js",
-                lineNumber: 47,
+                lineNumber: 66,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "SRC/Body.js",
-        lineNumber: 32,
+        lineNumber: 34,
         columnNumber: 5
     }, undefined);
 //<Rescard reslist={reslist[0]}>
 };
-_s(Body, "lFUYUrQ8RN42Cjw8Bay29wSbr54=");
+_s(Body, "LNt0DO+W6AX7iOeg+0GH8UmasGE=");
 _c = Body;
 exports.default = Body;
 var _c;
