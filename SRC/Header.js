@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { HEAD_LOGO } from "../util/constant";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [login_btn, setlogin_btn] = useState("LOGIN");
+  useEffect(() => {
+    console.log("useeffect called ");
+  }, []);
   console.log(" body rended");
   return (
     <div className="header">
@@ -12,9 +16,16 @@ const Header = () => {
 
       <div className="header-menu">
         <ul className="list-header">
-          <li>HOME</li>
-          <li>ABOUT US</li>
-          <li>CONTACT</li>
+          <li>
+            {" "}
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/about">ABOUT US</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT US</Link>
+          </li>
           <li>CART</li>
           <li>
             <button
